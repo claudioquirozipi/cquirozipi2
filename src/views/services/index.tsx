@@ -4,14 +4,13 @@ import * as img1 from '../img/projects/mangoLy.jpg';
 function Services() {
     return(
         <>
-            
             <Section1 img={img1}>
-                <h2>Servicios</h2>
+                <h2>Services</h2>
                 <ul>
-                    <li>Componentes en html o react.</li>
-                    <li>Landing page.</li>
-                    <li>Aplicaciones webs.</li>
-                    <li>Sistemas de inventarios.</li>
+                    <li>Components in html or react.</li>
+                    <li>Landing page</li>
+                    <li>Web applications</li>
+                    <li>Inventory systems</li>
                 </ul>
             </Section1>
         </>

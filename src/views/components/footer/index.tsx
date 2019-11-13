@@ -8,7 +8,7 @@ import {data} from './data';
 function Footer() {
     return(
         <FooterSC>  
-            <h3>Contactame</h3>
+            <h3>Social networks</h3>
             <ul>
                 {data.map((dato, i)=>(
                     <li key={i}>

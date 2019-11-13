@@ -15,91 +15,91 @@ import mangoLy from '../img/projects/mangoLy.jpg';
 export const data = [
     {
         title:"Tracsa", 
-        description: "Creada con react, en firebase",
+        description: "Created with react, in firebase",
         urlWeb: "https://tracsa.com.ar/",
         urlGithub: "https://github.com/claudioquirozipi/tracsaReact",
         img: tracsa
     },
     {
         title:"Sellboot", 
-        description: "Creado con html y subido en godaddy",
+        description: "Created with html and uploaded in godaddy",
         urlWeb: "http://sellboot.com/",
         urlGithub: "https://github.com/claudioquirozipi/sellun",
         img: sellboot
     },
     {
         title:"Wulpers", 
-        description: "Creado con html y subido en godaddy",
+        description: "Created with html and uploaded in godaddy",
         urlWeb: "https://wulpers.com/",
         urlGithub: "https://github.com/claudioquirozipi/wulpers",
         img: wulpers
     },
     {
         title:"Wulpers Studio", 
-        description: "Creado con React y firebase",
+        description: "Created with React and firebase",
         urlWeb: "https://wulperstudio.com/",
         urlGithub: "https://github.com/claudioquirozipi/wulpers-studio-react",
         img: wulperstudio
     },
     {
         title:"Boolanews", 
-        description: "Creado con js",
+        description: "Created with js",
         urlWeb: "http://boolanews.com/",
         urlGithub: "",
         img: boolanews
     },
     {
-        title:"Portafolio personal", 
-        description: "Versión antigua del Portafolio con React",
+        title:"Personal portfolio", 
+        description: "Old version of the Portfolio with React",
         urlWeb: "",
         urlGithub: "https://github.com/claudioquirozipi/cquirozipi",
         img: cquirozipi
     },
     {
-        title:"Contador", 
-        description: "Proyecto personal, contador creado con React",
+        title:"Accountant", 
+        description: "Personal project, accountant created with React",
         urlWeb: "https://contador-55ade.firebaseapp.com/",
         urlGithub: "https://github.com/claudioquirozipi/contadorReact",
         img: contador
     },
     {
-        title:"Medidor de pantalla", 
-        description: "Herramienta creada para medir los tamaños de las pantallas.",
+        title:"Screen meter", 
+        description: "Tool created to measure screen sizes.",
         urlWeb: "https://medidorpantalla.firebaseapp.com/",
         urlGithub: "https://github.com/claudioquirozipi/cquirozipi",
         img: medidorpantalla
     },
     {
-        title:"Calculadora de costos", 
-        description: "Herramienta para medir los costos de un plato en un restaurante.",
+        title:"Cost calculator", 
+        description: "Tool to measure the costs of a dish in a restaurant.",
         urlWeb: "https://calculadoradecostos.firebaseapp.com/",
         urlGithub: "https://github.com/claudioquirozipi/calculadoradecostos",
         img: calculadoracostos
     },
     {
-        title:"Juego", 
-        description: "Juego hecho con la librería phaser.",
+        title:"Game", 
+        description: "Game made with the phaser library.",
         urlWeb: "https://hola2-fd53e.web.app/",
         urlGithub: "https://github.com/claudioquirozipi/juegophaser",
         img: juego
     },
     {
         title:"Dashboard", 
-        description: "Practica de un dashboard con react y bootstrap",
+        description: "Practice a dashboard with react and bootstrap",
         urlWeb: "https://dashboard-a0059.web.app/",
         urlGithub: "https://github.com/claudioquirozipi/React-Bootstrap-Dashboard",
         img: dashboard
     },
     {
         title:"MangoPP", 
-        description: "Blog personal con react y firebase",
+        description: "Personal blog with react and firebase",
         urlWeb: "https://mangopp.com",
         urlGithub: "https://github.com/claudioquirozipi/mangopp",
         img: mangopp
     },
     {
         title:"Mango lybrary", 
-        description: "Lybrería personal para landing page",
+        description: "Personal jewelery for landing page",
         urlWeb: "",
         urlGithub: "https://github.com/claudioquirozipi/mangoly",
         img: mangoLy
