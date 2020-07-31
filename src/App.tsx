@@ -1,8 +1,12 @@
-import React from 'react';
-import Routes from './routes';
+import React from "react";
+import Routes from "./routes";
 
-const App: React.FC = () => <Routes />;
+import ProviderUseCase from "./useCase";
+
+const App: React.FC = () => (
+  <ProviderUseCase>
+    <Routes />
+  </ProviderUseCase>
+);
 
 export default App;
-
-

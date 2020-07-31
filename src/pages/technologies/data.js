@@ -11,7 +11,7 @@ import styled from "../../img/technologies/styled.jpg";
 import redux from "../../img/technologies/redux.png";
 import nodejs from "../../img/technologies/nodejs.jpg";
 import python from "../../img/technologies/python.png";
-import c from "../../img/technologies/c.png";
+import strapi from "../../img/technologies/strapi.svg";
 import mongodb from "../../img/technologies/mongodb.jpg";
 import graphql from "../../img/technologies/graphql.png";
 import firebase from "../../img/technologies/firebase.png";
@@ -32,7 +32,7 @@ export const data = [
     icon: css,
   },
   {
-    title: "Js",
+    title: "Javascript",
     icon: js,
   },
   {
@@ -60,7 +60,7 @@ export const data = [
     icon: webpack,
   },
   {
-    title: "Styled C",
+    title: "Styled Components",
     icon: styled,
   },
   {
@@ -75,10 +75,6 @@ export const data = [
   {
     title: "Python",
     icon: python,
-  },
-  {
-    title: "C#",
-    icon: c,
   },
   {
     title: "MongoDb",
@@ -115,5 +111,9 @@ export const data = [
   {
     title: "Svelte",
     icon: svelte,
+  },
+  {
+    title: "Strapi",
+    icon: strapi,
   },
 ];

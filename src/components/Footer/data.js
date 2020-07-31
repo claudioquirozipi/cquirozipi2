@@ -24,8 +24,7 @@ export const data = [
   {
     img: codepen,
     text: "codepen",
-    url:
-      "https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=grid&previewType=iframe&page=0",
+    url: "https://codepen.io/claudioquirozipi/",
   },
   {
     img: mangopp,

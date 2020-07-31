@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+  appBar: {
+    background: "#2C2648",
+  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -36,27 +39,26 @@ const Navbar: React.FC<NavbarProps> = () => {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-            onClick={() => setOpen(true)}
-          >
-            <MenuIcon />
-          </IconButton>
           <Avatar
             alt="Cquirozipi"
             src={avatarImg}
             sizes="2rem"
             className={classes.avatar}
           />
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" color="primary" className={classes.title}>
             Cquirozipi
           </Typography>
-          <Button color="inherit"></Button>
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="primary"
+            aria-label="menu"
+            onClick={() => setOpen(true)}
+          >
+            <MenuIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Sidebar open={open} onClose={() => setOpen(false)} />

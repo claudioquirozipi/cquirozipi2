@@ -8,8 +8,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import ListItem from "@material-ui/core/ListItem";
 import HomeIcon from "@material-ui/icons/Home";
 import WorkIcon from "@material-ui/icons/Work";
+import Switch from "@material-ui/core/Switch";
 import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
+import { useTheme } from "../../useCase/theme";
 
 export interface SidebarProps {
   open: boolean;
@@ -40,9 +42,10 @@ function ListItemLink(props: any) {
 const Sidebar: React.FC<SidebarProps> = (props) => {
   const { open, onClose } = props;
   const classes = useStyles();
+  const { toggleTheme, setToggleTheme } = useTheme();
 
   return (
-    <Drawer open={open} onClose={onClose}>
+    <Drawer open={open} onClose={onClose} anchor="right">
       <List component="nav" className={classes.root}>
         <ListItemLink primary="Home" to="/" icon={<HomeIcon />} />
         <ListItemLink primary="Projects" to="/projects" icon={<WorkIcon />} />
@@ -51,7 +54,18 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
           to="/technologies"
           icon={<CategoryIcon />}
         />
+        <ListItemLink
+          primary="Certificates"
+          to="/certificates"
+          icon={<CategoryIcon />}
+        />
       </List>
+      <Switch
+        value={toggleTheme}
+        checked={toggleTheme}
+        onChange={() => setToggleTheme((s: any) => !s)}
+        inputProps={{ "aria-label": "" }}
+      />
     </Drawer>
   );
 };
