@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(3),
+    marginBottom: theme.spacing(0),
+  },
+  chipContainer: {
+    padding: theme.spacing(3, 0),
   },
 }));
 
@@ -31,12 +34,21 @@ function Footer() {
       alignItems="center"
       className={classes.container}
     >
-      <Typography variant="h4" className={classes.title}>
+      <Typography variant="h4" className={classes.title} color="primary">
         Social networks
       </Typography>
       <Grid container spacing={0} justify="center">
         {data.map((dato, i) => (
-          <Grid item key={i} xs={12} md={2} justify="center" container>
+          <Grid
+            item
+            key={i}
+            xs={12}
+            sm={6}
+            md={2}
+            justify="center"
+            container
+            className={classes.chipContainer}
+          >
             <Chip
               avatar={<Avatar alt={dato.text} src={dato.img} />}
               label={dato.text}
@@ -44,6 +56,7 @@ function Footer() {
                 window.open(dato.url);
               }}
               color="secondary"
+              variant="outlined"
             />
           </Grid>
         ))}

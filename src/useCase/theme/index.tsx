@@ -36,6 +36,14 @@ const MyThemeProvider: React.FC<MyThemeProviderProps> = (props) => {
           button: {
             outline: "none !important",
           },
+          "html::-webkit-scrollbar": {
+            background: "#2C2648",
+            width: "0.5em",
+          },
+          "html::-webkit-scrollbar-thumb": {
+            background: "#FF657D",
+            borderRadius: "0.25em",
+          },
         },
       },
     },
@@ -59,6 +67,14 @@ const MyThemeProvider: React.FC<MyThemeProviderProps> = (props) => {
         "@global": {
           button: {
             outline: "none !important",
+          },
+          "html::-webkit-scrollbar": {
+            background: "#2C2648",
+            width: "0.5em",
+          },
+          "html::-webkit-scrollbar-thumb": {
+            background: "#FF657D",
+            borderRadius: "0.25em",
           },
         },
       },

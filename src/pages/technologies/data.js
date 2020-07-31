@@ -21,6 +21,7 @@ import formik from "../../img/technologies/formik.png";
 import deno from "../../img/technologies/deno.png";
 import golang from "../../img/technologies/golang.png";
 import svelte from "../../img/technologies/svelte.png";
+import materialUi from "../../img/technologies/material-ui.png";
 
 export const data = [
   {
@@ -115,5 +116,9 @@ export const data = [
   {
     title: "Strapi",
     icon: strapi,
+  },
+  {
+    title: "Material-ui",
+    icon: materialUi,
   },
 ];

@@ -48,7 +48,7 @@ const CardProyect: React.SFC<CardProyectProps> = (props) => {
         {urlGithub && (
           <Button
             size="small"
-            color="primary"
+            color="secondary"
             onClick={() => window.open(urlGithub)}
           >
             GitHub
@@ -57,7 +57,7 @@ const CardProyect: React.SFC<CardProyectProps> = (props) => {
         {urlWeb && (
           <Button
             size="small"
-            color="primary"
+            color="secondary"
             onClick={() => window.open(urlWeb)}
           >
             Url web
