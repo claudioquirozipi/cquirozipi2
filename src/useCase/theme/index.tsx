@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  createMuiTheme,
-  makeStyles,
-  ThemeProvider,
-} from "@material-ui/core/styles";
-import { red } from "@material-ui/core/colors";
-import { orange } from "@material-ui/core/colors";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 export interface MyThemeProviderProps {}
 

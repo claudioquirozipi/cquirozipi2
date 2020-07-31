@@ -1,6 +1,6 @@
 import edteamImg from "../../img/certificates/edTeam.png";
 import udemyimg from "../../img/certificates/udemy.png";
-import platziImg from "../../img/certificates/platzi.webp";
+// import platziImg from "../../img/certificates/platzi.webp";
 
 import awsImg from "../../img/certificates/awsUdemy.jpg";
 import reduxImg from "../../img/certificates/reduxUdemy.jpg";
@@ -34,10 +34,10 @@ const udemy: institute = {
   name: "Udemy",
 };
 
-const platzi: institute = {
-  img: platziImg,
-  name: "Platzi",
-};
+// const platzi: institute = {
+//   img: platziImg,
+//   name: "Platzi",
+// };
 
 export const data: courses = [
   {

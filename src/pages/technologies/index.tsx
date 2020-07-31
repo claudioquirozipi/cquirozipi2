@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { data } from "./data";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Avatar from "@material-ui/core/Avatar";
 import Chip from "@material-ui/core/Chip";
 
 interface iData {

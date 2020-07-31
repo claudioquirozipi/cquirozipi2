@@ -6,7 +6,6 @@ import Typography from "@material-ui/core/Typography";
 import Toolbar from "@material-ui/core/Toolbar";
 import MenuIcon from "@material-ui/icons/Menu";
 import Avatar from "@material-ui/core/Avatar";
-import Button from "@material-ui/core/Button";
 import AppBar from "@material-ui/core/AppBar";
 import Sidebar from "../Sidebar";
 import avatarImg from "../../img/avatar.jpg";
